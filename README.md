@@ -21,7 +21,13 @@ It is meant to be flashed to an M5Stack AtomS3-Lite (ESP32-S3FN8), using the Ard
 - changed internal LED to Neopixel of AtomS3-Lite (Pin35)
 - replaced code for controlling internal LED to AtomS3-Lite internal neopixel RGB-LED (used adafruit Neopixel Library)
 
+## firmware file *.bin
+This file was created with [M5 Burner](https://docs.m5stack.com/en/download) from M5Stack and is successfully tested on my AtomS3-Lite.
+You can use this tool to easy burn the AtomS3-TV-B-Gone.bin
 
+## known issues
+The code (and *.bin File) is not working on the AtomS3 (with 0,85" TFT). However, if you remove all neopixel related code line it should work 
+on the AtomS3 to.
 
 ## Hardware
 

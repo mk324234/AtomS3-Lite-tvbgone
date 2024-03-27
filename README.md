@@ -2,7 +2,7 @@
 
 Port of popular agrimpelhuber/esp8266-tvbgone for AtomS3-Lite (maybe also AtomS3, untested)
 
-Send 100+ IR-Codes by Buttonpress, to turn of any TV, Projector etc. 
+Send 100+ IR-Codes by Buttonpress, to turn off any TV, Projector etc. 
 
 It is meant to be flashed to an M5Stack AtomS3-Lite (ESP32-S3FN8), using the Arduino Development Platform. The IRremoteESP8266 + Adafruit neopixel library can also be downloaded using the library manager.
 

@@ -8,9 +8,10 @@ It is meant to be flashed to an M5Stack AtomS3-Lite (ESP32-S3FN8), using the Ard
 
 ## Credits
 
-Based mainly on Ken Shirriff's (and other contributors', credits [here](https://github.com/shirriff/Arduino-TV-B-Gone)) Arduino port of the original TV-B-Gone
-Based partly (important part, though) on Mark Szabo's [IRremoteESP8266](https://github.com/markszabo/IRremoteESP8266), also based on Ken Shirriff's work. Thanks, Ken!
-And, of course, agrimpelhuber/esp8266-tvbgone based on the original TV-B-Gone by Mitch Altman.
+- original TV-B-Gone by Mitch Altman
+- Ken Shirriff's [here](https://github.com/shirriff/Arduino-TV-B-Gone)) Arduino port of the original TV-B-Gone
+- Mark Szabo's [IRremoteESP8266](https://github.com/markszabo/IRremoteESP8266)
+- agrimpelhuber/esp8266-tvbgone based on the original TV-B-Gone by Mitch Altman
 
 
 ## Changes to the original code
@@ -18,7 +19,7 @@ And, of course, agrimpelhuber/esp8266-tvbgone based on the original TV-B-Gone by
 - default Region (without jumper) to Europe
 - changed Pin Definitions of Button + IR to AtomS3-Lite (Pin41, Pin4)
 - changed internal LED to Neopixel of AtomS3-Lite (Pin35)
-- replaced code for internal LED to AtomS3-Lite internal neopixel RGB-LED 
+- replaced code for controlling internal LED to AtomS3-Lite internal neopixel RGB-LED (used adafruit Neopixel Library)
 
 
 

@@ -26,8 +26,8 @@ This file was created with [M5 Burner](https://docs.m5stack.com/en/download) fro
 You can use this tool to easy burn the AtomS3-TV-B-Gone.bin
 
 ## compatibility with AtomS3
-The code (and *.bin File) is not working on the AtomS3 (with 0,85" TFT). However, if you remove all neopixel related code line it should work 
-on the AtomS3 to.
+The code (and *.bin File) is not working on the AtomS3 (with 0,85" TFT). However, if you remove all neopixel related code lines it should work 
+on the AtomS3 too.
 
 ## Hardware
 

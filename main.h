@@ -8,13 +8,12 @@ By Anton Grimpelhuber (anton.grimpelhuber@gmail.com)
 // NA is for North America, Asia, and the rest of the world not covered by EU
 
 // Two regions!
-#define NA 1 //set by a HIGH on REGIONSWITCH pin
-#define EU 0 //set by a LOW on REGIONSWITCH pin
+#define EU 1 //set by a HIGH on REGIONSWITCH pin
+#define NA 0 //set by a LOW on REGIONSWITCH pin
 
 // What pins do what
-#define LED 2 //LED indicator pin (built-in LED)
-#define IRLED 14        //the IR sender LED / D5 on wemos D1 mini
-#define TRIGGER 12       //the button pin / D6 on wemos D1 mini
+#define IRLED 4        //the IR sender LED / D5 on wemos D1 mini
+#define TRIGGER 41       //the button pin / D6 on wemos D1 mini
 #define REGIONSWITCH 5  //HIGH (1) = NA, LOW (0) = EU; Pin 5 / D1 (REGIONSWITCH) is HIGH (via in input pullup resistor) for North America, or you (the user) must wire it to ground to set the codes for Europe.
 
 // Lets us calculate the size of the NA/EU databases

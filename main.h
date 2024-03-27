@@ -12,9 +12,9 @@ By Anton Grimpelhuber (anton.grimpelhuber@gmail.com)
 #define NA 0 //set by a LOW on REGIONSWITCH pin
 
 // What pins do what
-#define IRLED 4        //the IR sender LED / D5 on wemos D1 mini
-#define TRIGGER 41       //the button pin / D6 on wemos D1 mini
-#define REGIONSWITCH 5  //HIGH (1) = NA, LOW (0) = EU; Pin 5 / D1 (REGIONSWITCH) is HIGH (via in input pullup resistor) for North America, or you (the user) must wire it to ground to set the codes for Europe.
+#define IRLED 4        //the IR sender LED 
+#define TRIGGER 41       //the button pin 
+#define REGIONSWITCH 5  //HIGH (1) = EU, LOW (0) = NA
 
 // Lets us calculate the size of the NA/EU databases
 #define NUM_ELEM(x) (sizeof (x) / sizeof (*(x)));

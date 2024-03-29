@@ -1,6 +1,6 @@
 # AtomS3-Lite-tvbgone
 
-Port of popular agrimpelhuber/esp8266-tvbgone for AtomS3-Lite (maybe also AtomS3, untested)
+Port of popular agrimpelhuber/esp8266-tvbgone for AtomS3-Lite
 
 Send 100+ IR-Codes by Buttonpress, to turn off any TV, Projector etc. 
 
